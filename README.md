@@ -21,4 +21,5 @@ Baza danych jest zawsze załączona w folderze z rozwiązaniem do egzaminu
 
 ### Czemu tak mało jest tego?
 No bo mnie sie nie chce, ale jak masz jakiś egzamin którego nie mam to napisz na discordzie (`Butters#9668`) a jest szansa że go zrobie 
+
 #(☞ﾟヮﾟ)☞
