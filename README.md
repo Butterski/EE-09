@@ -3,6 +3,9 @@ Wstawiam tutaj moje rozwiązania na starsze/próbne Egzaminy zawodowe EE.09
 
 # FAQ
 
+### Czegoś nie ma/coś nie działa
+To mi napisz na dc - `Butters#9668`
+
 ### Jak to w ogóle załączyć?
 1. pobierz egzamin który jest ci potrzebny
 2. włącz aplikacja xampp
