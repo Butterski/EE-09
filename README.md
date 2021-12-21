@@ -1,5 +1,5 @@
 # EE-09
-Wstawiam tutaj moje rozwiązania na starsze/próbne Egzaminy zawodowe EE.09
+Wstawiam tutaj moje rozwiązania na starsze/próbne Egzaminy zawodowe EE.09, EE.14 i INF03
 
 # FAQ
 
