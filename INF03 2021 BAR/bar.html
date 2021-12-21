@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styl2.css" />
+    <link rel="icon" type="favicon" href="https://twemoji.maxcdn.com/2/svg/1f47d.svg">
+    <title>Smaczne Jadło</title>
+  </head>
+  <body>
+    <header><h1>Bar Smaczne Jadło zaprasza</h1></header>
+    <main>
+      <div id="lewy">
+        <h4>Dziś polecamy</h4>
+        <table>
+          <tr>
+            <td>Zupa Gazpaczo</td>
+            <td>cena: 20zł</td>
+          </tr>
+          <tr>
+            <td>Kurczak Pieczony</td>
+            <td>cena: 40zł</td>
+          </tr>
+        </table>
+      </div>
+      <div id="prawy"><img src="obraz.png" alt="makarony" /></div>
+      <div id="dolny">
+        <h3>Chcesz z nami pracować?</h3>
+        <form action="rekrutacja.php" method="post">
+          <label for="imie">Imie:</label>
+          <input type="text" name="imie" id="imie" /><br />
+          <label for="nazwisko">Nazwisko:</label>
+          <input type="text" name="nazwisko" id="nazwisko" /><br />
+          <label for="stanowisko">Stanowisko:</label>
+          <input type="number"  name="stanowisko" id="stanowisko" />(1 - kucharz, 2
+          - pomoc, 3 - kelner, 4 - barman)<br />
+          <input type="reset" class="button" value="WYCZYŚĆ" />
+          <input type="submit" class="button" value="REKRUTUJ" />
+        </form>
+      </div>
+    </main>
+    <footer>Autor:<b>Miłosz Kucharski ©</b></footer>
+  </body>
+</html>
