@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restauracja Wszystkie Smaki</title>
+    <link rel="stylesheet" href="styl_1.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Witamy w restauracji "Wszystkie Smaki"</h1>
+    </header>
+    <main>
+      <div id="mlewo">
+        <img src="menu.jpg" alt="Nasze danie" />
+      </div>
+      <div id="mprawo">
+        <h4>U nas dobrze zjesz!</h4>
+        <ol>
+          <li>Obiady od 40zł</li>
+          <li>Przekąski od 10zł</li>
+          <li>Kolacje od 20zł</li>
+        </ol>
+      </div>
+      <div id="mdolny">
+        <h2>U nas dobrze zesz</h2>
+        <form action="rezerwacja.php" method="post">
+          <label for="data">Data(foramt rrr-mm-dd):</label><br>
+          <input type="date" name="data" /><br>
+          <label for="osoby">Ile osób?:</label> <br>
+          <input type="number" name="osoby" /><br>
+          <label for="telefon">Twój numer telefonu:</label><br>
+          <input name="telefon" /><br>
+          <input type="checkbox" name="dane" />
+          <label for="dane">Zgadzam się na przetwarzanie moich danych osobowych</label><br>
+          <input class="button" type="reset" value="WYCZYŚĆ" />
+          <input class="button" type="submit" value="REZERWUJ" />
+        </form>
+      </div>
+    </main>
+    <footer>Stronę internetową opracował: Miłosz Kucharski ©</footer>
+  </body>
+</html>
